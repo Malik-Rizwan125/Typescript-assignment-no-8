@@ -63,3 +63,5 @@ console.log(alpha);
 // var arr1:number [] = [2,6,4,7,11,44,33,22,13,56,60];
 // arr1.sort()
 // console.log(arr1)
+var num1 = prompt("please enter any number");
+console.log(num1);

@@ -25,11 +25,11 @@
 
 var arr1: number[] = [2, 4, 5, 6, 7, 9]
 
-var sum:number= 0
+var sum: number = 0
 
 var i: number;
-for (i = 0; i <arr1.length; i++) {
-    sum  += arr1[i];
+for (i = 0; i < arr1.length; i++) {
+    sum += arr1[i];
 
     console.log("sum of all the num :", sum)
 }
@@ -45,7 +45,7 @@ for (i = 0; i <arr1.length; i++) {
 //  var arr2:number = Number(arr1)
 // for(var i=0 ; i<= arr1.length; i++){
 //     if(i % 2 == 0){
-        
+
 //         console.log("this is even number" , i )
 //     }else{
 // console.log("This is off number", i)
@@ -96,7 +96,7 @@ for (i = 0; i <arr1.length; i++) {
 // var alphaString:string[] = ["This is beautifull website"];
 // alphaString.search('This')
 
-var alpha:string []= new Array("orange", "mango", "banana", "sugar");
+var alpha: string[] = new Array("orange", "mango", "banana", "sugar");
 alpha.sort()
 console.log(alpha)
 
@@ -106,3 +106,7 @@ console.log(alpha)
 
 // arr1.sort()
 // console.log(arr1)
+
+var num1: string | null = prompt("please enter any number")
+
+console.log(num1)
