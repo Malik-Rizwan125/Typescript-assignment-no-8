@@ -23,16 +23,16 @@
 // 3. Write a ts program to find sum of all array elements..............
 
 
-var arr1: number[] = [2, 4, 5, 6, 7, 9]
+// var arr1: number[] = [2, 4, 5, 6, 7, 9]
 
-var sum: number = 0
+// var sum: number = 0
 
-var i: number;
-for (i = 0; i < arr1.length; i++) {
-    sum += arr1[i];
+// var i: number;
+// for (i = 0; i < arr1.length; i++) {
+//     sum += arr1[i];
 
-    console.log("sum of all the num :", sum)
-}
+//     console.log("sum of all the num :", sum)
+// }
 
 // 4. Write a ts program to find maximum and minimum element in an array
 
@@ -71,7 +71,8 @@ for (i = 0; i < arr1.length; i++) {
 // 10. Write a ts program to delete an element from an array at specified position............
 
 // var arr1:number [] =[2,4,6,7,8]
-// arr1.pop();
+// // arr1.pop();
+// arr1.slice(0,2)
 // console.log(arr1)
 
 
@@ -96,17 +97,29 @@ for (i = 0; i < arr1.length; i++) {
 // var alphaString:string[] = ["This is beautifull website"];
 // alphaString.search('This')
 
-var alpha: string[] = new Array("orange", "mango", "banana", "sugar");
-alpha.sort()
-console.log(alpha)
+// 19. Write a ts program to sort array elements in ascending or descending order.
 
-// 18. Write a ts program to search an element in an array.
+// var alpha: string[] = new Array("orange", "mango", "banana", "sugar");
+// alpha.sort()
+// console.log(alpha)
 
-// var arr1:number [] = [2,6,4,7,11,44,33,22,13,56,60];
+// alpha.reverse()
+// console.log(alpha)
+
+// var arr1:number [] = new Array(2,6,4,7,11,44,33,22,13,56,60);
 
 // arr1.sort()
 // console.log(arr1)
 
-var num1: string | null = prompt("please enter any number")
 
-console.log(num1)
+// example for index
+
+// var num1: string | null = prompt("please enter any number")
+
+// console.log(num1)
+
+// 21. Write a ts program to left rotate an array.
+
+// let num1:number[] = [2,4,6,7,8];
+
+// num1.leftRotate()
